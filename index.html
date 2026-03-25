@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Sora:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LEFT -->
+    <div class="left">
+      <div class="left-circle-top"></div>
+
+      <h2 class="left-headline">Social media shared today,<br>tomorrow or by location</h2>
+
+      <div class="phones">
+
+        <div class="phone phone-left">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+          </div>
+        </div>
+
+        <!-- Main phone -->
+        <div class="phone phone-main">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+          </div>
+          <div class="phone-bottom">
+            <div class="dots">
+              <div class="dot active"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+            <div class="phone-bottom-title">Archives</div>
+            <div class="phone-bottom-text">Store, organize and share life's most important memories and documents.</div>
+          </div>
+        </div>
+
+        <!-- Right phone -->
+        <div class="phone phone-right">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+            <div class="photo-tile"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+
+      <!-- Logo -->
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="18" cy="18" r="17" stroke="#E5E7EB" stroke-width="2" />
+          <path
+            d="M24 13.5C22.5 11.5 20 10.5 18 10.5C13.8579 10.5 10.5 13.8579 10.5 18C10.5 22.1421 13.8579 25.5 18 25.5C20.5 25.5 22.5 24.3 24 22.5"
+            stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" />
+          <defs>
+            <linearGradient id="g1" x1="10" y1="10" x2="26" y2="26" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#EA4335" />
+              <stop offset="0.33" stop-color="#FBBC04" />
+              <stop offset="0.66" stop-color="#34A853" />
+              <stop offset="1" stop-color="#4285F4" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="logo-text">Logo</span>
+      </div>
+
+      <h1>Create account</h1>
+      <p class="subtitle">For business, band or celebrity.</p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">First name</label>
+          <input type="text" id="fname">
+        </div>
+        <div class="form-group">
+          <label for="lname">Last name</label>
+          <input type="text" id="lname">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email or phone number</label>
+          <input type="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of birth (MM/DD/YY)</label>
+          <div class="date-wrap">
+            <input type="date" id="dob">
+            <svg class="date-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="pw">Password</label>
+          <input type="password" id="pw">
+        </div>
+        <div class="form-group">
+          <label for="pw2">Confirm password</label>
+          <input type="password" id="pw2">
+        </div>
+      </div>
+
+      <div class="checks">
+        <div class="check-row between">
+          <label class="check-row">
+            <input type="checkbox" id="remember">
+            Remember me
+          </label>
+          <a href="#" class="link">Forgot password?</a>
+        </div>
+        <label class="check-row">
+          <input type="checkbox" id="terms">
+          I agree to all the <a href="#" class="link">Terms</a> and <a href="#" class="link">Privacy policy</a>
+        </label>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn-primary">Create account</button>
+        <button class="btn-google">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#EA4335"
+              d="M24 9.5c3.1 0 5.6 1.1 7.6 2.8l5.6-5.6C33.6 3.5 29.1 1.5 24 1.5 15.3 1.5 7.9 6.8 4.6 14.4l6.6 5.1C12.9 13.7 18 9.5 24 9.5z" />
+            <path fill="#4285F4"
+              d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v8.5h12.7c-.6 2.9-2.2 5.4-4.7 7l7.2 5.6c4.2-3.9 6.6-9.6 6.6-16.6z" />
+            <path fill="#FBBC05"
+              d="M11.2 28.5c-.5-1.5-.8-3-.8-4.5s.3-3 .8-4.5l-6.6-5.1C2.9 17.1 1.5 20.4 1.5 24s1.4 6.9 3.1 9.6l6.6-5.1z" />
+            <path fill="#34A853"
+              d="M24 46.5c5.1 0 9.4-1.7 12.5-4.6l-7.2-5.6c-1.7 1.2-4 1.9-5.3 1.9-6 0-11.1-4.1-12.8-9.7l-6.6 5.1C7.9 41.2 15.3 46.5 24 46.5z" />
+          </svg>
+          Sign-in with google
+        </button>
+      </div>
+
+      <p class="already">Don't have an account? <a href="#" class="link">Log In</a></p>
+
+      <div class="stores">
+        <a href="#" class="store-badge">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M3.18 23.76c.31.17.67.17.98-.01l13.12-7.56-2.76-2.76-11.34 10.33zm-1.53-19.74a1.5 1.5 0 00-.15.67v18.62c0 .24.05.47.15.67l.08.08L13.1 12v-.25L1.73 3.94l-.08.08zm17.08 9.88l-3.03-1.75-2.98 2.98 2.98 2.98 3.06-1.77c.87-.5.87-1.32-.03-1.44zm-16.08 10.56L14.57 13.4l-2.75-2.75L2.65 24.46z" />
+          </svg>
+          <div class="store-label">
+            <span>GET IT ON</span>
+            <span>Google Play</span>
+          </div>
+        </a>
+        <a href="#" class="store-badge">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+          </svg>
+          <div class="store-label">
+            <span>Download on the</span>
+            <span>App Store</span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
